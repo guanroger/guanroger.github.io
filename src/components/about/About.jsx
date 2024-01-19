@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 const textVariants = {
   initial: {
-    x: -500,
+    x: -40,
     opacity: 0,
   },
   animate: {

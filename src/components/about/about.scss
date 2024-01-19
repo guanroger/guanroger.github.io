@@ -5,9 +5,8 @@
     
     background: linear-gradient(180deg, #111132, #0c0c1d );
     position: absolute;
-    @include mobile {
-      
-    }
+    overflow: hidden;
+
     
     .wrapper{
         max-width: 100%;
@@ -25,7 +24,7 @@
             @include mobile {
               height: 30%;
               width: 100%;
-              margin-left: 0;
+              margin-left: auto;
             }
 
             
@@ -97,6 +96,7 @@
               height: 50%;
               top: 70%;
               margin-top: -100px;
+              margin-right:auto;
               right: 0%;
             }
         
