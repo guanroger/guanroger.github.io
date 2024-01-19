@@ -51,32 +51,32 @@ const Experiences = () =>{
                         <motion.div className="name"  variants={textVariants}>Guan-Cherng LIN (Roger)</motion.div>
                         <motion.div className="title" variants={textVariants}> Master's Student in CS</motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/file-solid.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/file-solid.svg" alt="" />
                                 <a className="title" href="#">   || Resume</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/envelope-solid-b.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/envelope-solid-b.svg" alt="" />
                                 <a className="title" href="mailto: guanchernglin@gmail.com">  || guanchernglin@gmail.com</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/phone-solid.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/phone-solid.svg" alt="" />
                                 <a className="title">  || (+1) 347-200-8680</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/house-solid.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/house-solid.svg" alt="" />
                                 <a className="title">  || 689 5th Ave. #3A, Brooklyn, NY, US</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/linkedin-b.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/linkedin-b.svg" alt="" />
                             <a className="title" href="https://www.linkedin.com/in/guan-cherng-lin-roger-3128b019a/">  || LinkedIn</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/github-b.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="./public/github-b.svg" alt="" />
                             <a className="title" href="https://github.com/guanroger">  || Github</a>
                             </motion.div>
                         </motion.div>
