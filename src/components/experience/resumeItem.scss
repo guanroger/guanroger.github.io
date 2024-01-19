@@ -1,0 +1,72 @@
+.resumeItem{
+    position: relative;
+    padding-left: 60px;
+    
+    font-size: small;
+    .resumeIcon{
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: rgba(145, 145, 240, 0.699);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        img{
+            width: 20px;
+            height: 20px;
+            margin-top: 10px;
+            position: relative;
+        }
+    }
+    .resumeDate{
+        background-color: #3a393a;
+        padding: 2px 10px;
+        border-radius: 20px;
+        font-size: small;
+        font-weight: 500;
+    }
+
+    .resumeSubtitle{
+        font-size: large;
+        font-weight: 700;
+        margin-block: 5px 5px;
+    }
+    .resumeSubtitle span {
+        color: rgb(174, 147, 248);
+        font-family: 'Roboto Slab', serif;
+        font-size: large;
+        font-weight: 600;
+        position: relative;
+        padding-left: 23px;
+    }
+    
+    .resumeSubtitle span::before {
+        content: '';
+        position: absolute;
+        left: 7px;
+        top: 9px;
+        width: 10px;
+        height: 2px;
+        background-color: #484748;
+    }
+
+}
+.resumeItem:last-child{
+    margin-bottom: 40px;
+}
+
+.resumeItem:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.resumeItem::before{
+    content: '';
+    position: absolute;
+    inset-block: 0;
+    left: 30px;
+    border-left: 1px solid lightgray;
+}
+
+

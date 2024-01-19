@@ -1,0 +1,104 @@
+
+
+
+.experiences{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    .wrapper{
+        display: flex;
+        max-width: 100%;
+        height: 100%;
+        margin: 20px;
+
+        h2{
+            font-size: 45px;
+            color: rgb(203, 162, 243);
+            font-family: 'Roboto Slab', serif;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            
+        }
+        
+
+        .leftfakePanel{
+            width:4%;
+            
+            min-height: calc(100vh - 80px);
+            background: linear-gradient(to bottom, #060c41, rgb(1, 48, 13));
+            // background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+            max-width: 25vw;
+            .starscanvas{
+                margin-top: 50%;
+                text-align: center;
+            }
+        }
+
+
+        .leftPanel{
+            width: 30%;
+            padding: 20px 30px;
+            min-height: calc(100vh - 80px);
+            align-items: top;
+            background: linear-gradient(to bottom, #949ef7, rgb(237, 221, 247));
+            // background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+            max-width: 25vw;
+            margin-left: 40px;
+            color: #090f52;
+            
+            .contact{
+            height: 50px;
+            line-height: 50px;
+            font-size: 30px;
+            font-weight: bold;
+            border-bottom: solid #020c7f;
+            font-family: "Georgia", serif;
+            margin-top: 20px;
+            }
+            .name{
+            font-size: 19px;
+            font-family: "Georgia", serif;
+            margin-bottom: -4px;
+            }
+            .title{
+            font-size: 14px;
+            font-style: italic;
+            color: text-color;
+            text-align:justify;
+
+            font-family: 'Roboto Slab', serif;
+            }
+            .card{
+            margin: 12px 0;
+            justify-content: flex-start;
+            font-size: 14px;
+            margin-top: -5px;
+            border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+            cursor: pointer;
+            .icon{
+                font-family: "iconfont";
+                font-size: 24px;
+                margin-right: 10px;
+                color: primary-dark-blue;
+            }
+            .target{
+                word-break: break-all;
+                color: text-color;
+            }
+            }
+            }
+
+           .rightPanel{
+
+            width: 70%;
+            height: 100%;
+            gap: 30px;
+            padding-left: 60px;
+
+            
+           }
+
+    }
+}
