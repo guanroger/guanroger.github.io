@@ -54,11 +54,11 @@ const Projects = () =>{
                 className="box"
                 whileHover={{ background: "lightgray", color: "black" }}
               >
-                <h2>guanroger/ LAAFU.server.demo</h2>
+                <h2>guanroger/ CS.GY6513.2023.Fall. Big.Data.Final</h2>
                 <p>
-                   HKUST Final Year Project using Python and Flask.
+                  NYU Tandon Big Data Course using pyspark, MongoDB.
                 </p>
-                <a href="https://github.com/guanroger/LAAFU-server-demo">
+                <a href="https://github.com/guanroger/CS-GY6513-2023-Fall-Big-Data-Final">
                   <button>Go</button>
                 </a>
               </motion.div>
@@ -90,14 +90,15 @@ const Projects = () =>{
                 className="box"
                 whileHover={{ background: "lightgray", color: "black" }}
               >
-                <h2>guanroger/ CS.GY6513.2023.Fall. Big.Data.Final</h2>
+                <h2>guanroger/ LAAFU.server.demo</h2>
                 <p>
-                  NYU Tandon Big Data Course using pyspark, MongoDB.
+                   HKUST Final Year Project using Python and Flask.
                 </p>
-                <a href="https://github.com/guanroger/CS-GY6513-2023-Fall-Big-Data-Final">
+                <a href="https://github.com/guanroger/LAAFU-server-demo">
                   <button>Go</button>
                 </a>
               </motion.div>
+              
             </motion.div>
             
              

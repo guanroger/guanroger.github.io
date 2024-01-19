@@ -82,7 +82,7 @@ const Experiences = () =>{
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/public/github-b.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="/github-b.svg" alt="" />
                             <a className="title" href="https://github.com/guanroger">  || Github</a>
                             </motion.div>
                         </motion.div>
