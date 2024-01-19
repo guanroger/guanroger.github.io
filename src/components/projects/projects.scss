@@ -17,7 +17,7 @@
     
     @include mobile{
       align-self: start;
-      margin-left: 50%;
+      margin-left: 75%;
     }
     
 
@@ -48,7 +48,7 @@
 
     @include mobile{
       width: 100%;
-
+      margin-top: -30px;
     }
 
     
@@ -75,6 +75,7 @@
         @include mobile{
           width: 200px;
           height: 50px;
+          margin-bottom: -20px;
         }
         
       }
@@ -101,14 +102,21 @@
         cursor: pointer;
 
         @include mobile{
-          font-size: 16px;
-          width: 150px;
+          font-size: 19px;
+          width: 170px;
+          margin-top: -20px;
+
         }
         
         img{
           width: 20px;
           height: 20px;
           margin-left: 25px;
+          @include mobile{
+            
+            padding-top: -20px;
+  
+          }
         }
       }
 
@@ -135,13 +143,14 @@
   
     .box {
       padding: 25px;
-      
+      text-align: center ;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
 
       @include mobile{
+        border: none;
         
         p{
           display: none;
@@ -152,8 +161,10 @@
         font-size: 20px;
 
         @include mobile{
-          margin-top: -10px;
+          margin-top: -20px;
           font-size: 15px;
+          margin-bottom: 5px;
+
         }
       }
 
@@ -166,11 +177,18 @@
         padding: 10px;
         background-color: orange;
         border: none;
+        width: 50%;
+        padding: 5px;
         cursor: pointer;
+
         
 
-        @include mobile{
-          margin-top: 5px;
+        @include mobile {
+          background-color: transparent;
+          border: 1px solid orange;
+          border-radius: 5px;
+          color: orange;
+          width: 50%;
           padding: 5px;
         }
 

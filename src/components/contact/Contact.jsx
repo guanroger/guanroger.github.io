@@ -62,6 +62,9 @@ const Contact = () => {
         <h3>Thanks for your time.</h3>
         <h3>Feel Free to Contact Me. :)</h3>
         <motion.div variants={variants} className="buttons">
+        <motion.a variants={variants} href="">
+                <motion.img  variants={variants} src="/file-solid-w.svg" alt="" /> Resume
+            </motion.a>
             <motion.a variants={variants} href="https://www.linkedin.com/in/guan-cherng-lin-roger-3128b019a/">
                 <motion.img  variants={variants} src="/linkedin-w.svg" alt="" /> LinkedIn
             </motion.a>
