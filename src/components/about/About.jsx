@@ -43,7 +43,7 @@ const About = () =>{
 
   const ref = useRef();
 
-  const isInView = useInView(ref, { margin: "-100px" });
+  const isInView = useInView(ref, { margin: "-15px" });
     return (
 
         <div className="about">
