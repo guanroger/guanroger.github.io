@@ -52,7 +52,7 @@ const Experiences = () =>{
         <div className="experiences">
             <div className="wrapper">
                 <motion.div className="leftPanel" variants={textVariants} initial="initial" ref={ref} animate={ isInView && "animate"}>
-                    <motion.div className="contact" variants={textVariants}>
+                    <motion.div className="contacts" variants={textVariants}>
                         Contact
                         <motion.div className="name"  variants={textVariants}>Guan-Cherng LIN (Roger)</motion.div>
                         <motion.div className="title" variants={textVariants}> Master's Student in CS</motion.div>

@@ -1,8 +1,7 @@
 import React from 'react'
 import parse from 'html-react-parser';
 import "./resumeItem.scss";
-import { motion , useInView} from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const textVariants_down = {
     initial: {
@@ -21,11 +20,8 @@ const textVariants_down = {
   }
 
 const ResumeItem =({icon, year, title, desc}) =>{
-  const ref = useRef();
-
-  const isInView = 1;
     return (
-        <motion.div className="resumeItem" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}>
+        <motion.div className="resumeItem" variants={textVariants_down} initial="initial" animate="animate">
             <motion.div className="resumeIcon">{icon}</motion.div>
 
             <motion.span className="resumeDate">{year}</motion.span>
