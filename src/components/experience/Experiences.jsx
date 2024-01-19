@@ -1,10 +1,11 @@
 import "./experiences.scss"
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform , useInView} from "framer-motion";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import StarsCanvas from "../starbackground/starBackground";
 import {resume} from "./data";
 import ResumeItem from "./ResumeItem";
+import { useRef } from "react";
 
 const textVariants = {
   initial: {
@@ -39,13 +40,18 @@ const textVariants_down = {
   }
 
 const Experiences = () =>{
+
+    const ref = useRef();
+
+    const isInView = useInView(ref, { margin: "-100px" });
+
     let workIconStyles = { background: "#06d6a0"}
     let schoolIconStyles = { background: "#f9c74f"}
 
     return (
         <div className="experiences">
             <div className="wrapper">
-                <motion.div className="leftPanel" variants={textVariants} initial="initial" animate="animate">
+                <motion.div className="leftPanel" variants={textVariants} initial="initial" ref={ref} animate={ isInView && "animate"}>
                     <motion.div className="contact" variants={textVariants}>
                         Contact
                         <motion.div className="name"  variants={textVariants}>Guan-Cherng LIN (Roger)</motion.div>
@@ -76,15 +82,15 @@ const Experiences = () =>{
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/github-b.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="/public/github-b.svg" alt="" />
                             <a className="title" href="https://github.com/guanroger">  || Github</a>
                             </motion.div>
                         </motion.div>
                     </motion.div>
                 </motion.div>
-                <motion.div className="leftfakePanel" variants={textVariants_down} initial="initial" animate="animate"><div className="starscanvas"><StarsCanvas/></div></motion.div>
+                <motion.div className="leftfakePanel" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}><div className="starscanvas"><StarsCanvas/></div></motion.div>
 
-                <motion.div className="rightPanel" variants={textVariants_down} initial="initial" animate="animate">
+                <motion.div className="rightPanel" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}>
 
                     <motion.div classname ="resumeContainer">
                         <motion.h2>Experience & Education</motion.h2>

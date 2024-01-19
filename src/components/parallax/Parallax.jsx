@@ -18,8 +18,6 @@ const Parallax = ({ type }) => {
     offset: ["start start", "end start"],
   });
 
-  const xText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
-
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
@@ -34,7 +32,7 @@ const Parallax = ({ type }) => {
             : "linear-gradient(180deg, #111132, #505064)",
       }}
     >
-      <motion.div className="starfield" style={{ x: xText }}>
+      <motion.div className="starfield" style={{ y: yText }}>
         <Starfield
 
           starCount={3000}

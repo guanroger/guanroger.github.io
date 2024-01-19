@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import StarsCanvas from "./components/starbackground/starBackground";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return <div>
@@ -14,7 +15,7 @@ const App = () => {
     <section id ="About"><About/></section>
     <section ><Experiences/></section>
     <section id ="Demo" >Demo</section>
-    <section id ="Projects">Projects</section>
+    <section id ="Projects"><Projects/></section>
     <section id ="Contact"><StarsCanvas/></section>
   </div>;
 };
