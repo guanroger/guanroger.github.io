@@ -37,7 +37,7 @@ const Parallax = ({ type }) => {
 
           starCount={3000}
           starColor={[255, 255, 255]}
-          speedFactor={0.075}
+          speedFactor={0.1}
           backgroundColor="#0c0c1d "
         />
       </motion.div>

@@ -1,6 +1,7 @@
 import { useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
+import StarsCanvas from "../starbackground/starBackground";
 
 
 const variants = {
@@ -80,6 +81,7 @@ const Contact = () => {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 3, duration: 1 }}
         >
+          
           <svg width="450px" height="450px" viewBox="0 0 32.666 32.666">
             <motion.path
               strokeWidth={0.2}
@@ -101,10 +103,13 @@ const Contact = () => {
             l0.006-0.006c1.16,1.118,2.535,2.765,4.769,4.255c4.703,3.141,8.312,2.264,10.438,1.098c3.67-2.021,5.312-6.338,5.312-9.719
             C32.666,7.326,25.339,0,16.333,0z"
             />
+            
           </svg>
         </motion.div>
        
       </div>
+      <div className="bg"><div className="starbackground"><StarsCanvas/></div></div>
+      <p className="bt"> Designed & Built by Guan-Cherng, LIN. Open-sourced on Github.</p>
     </motion.div>
   );
 };

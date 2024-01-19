@@ -88,7 +88,7 @@ const Experiences = () =>{
                         </motion.div>
                     </motion.div>
                 </motion.div>
-                <motion.div className="leftfakePanel" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}><div className="starscanvas"><StarsCanvas/></div></motion.div>
+                <motion.div className="leftfakePanel" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}><StarsCanvas/></motion.div>
 
                 <motion.div className="rightPanel" variants={textVariants_down} initial="initial" ref={ref} animate={ isInView && "animate"}>
 
