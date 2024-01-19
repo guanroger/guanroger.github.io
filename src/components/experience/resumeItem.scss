@@ -1,7 +1,8 @@
+@import"../../App.scss";
 .resumeItem{
     position: relative;
     padding-left: 60px;
-    
+
     font-size: small;
     .resumeIcon{
         position: absolute;
@@ -26,12 +27,19 @@
         border-radius: 20px;
         font-size: small;
         font-weight: 500;
+        @include mobile {
+            font-weight: 200;
+            
+          }
     }
 
     .resumeSubtitle{
         font-size: large;
         font-weight: 700;
         margin-block: 5px 5px;
+        @include mobile {
+            font-size: medium;
+          }
     }
     .resumeSubtitle span {
         color: rgb(174, 147, 248);
@@ -40,6 +48,9 @@
         font-weight: 600;
         position: relative;
         padding-left: 23px;
+        @include mobile {
+            font-size: small;
+          }
     }
     
     .resumeSubtitle span::before {
@@ -69,4 +80,9 @@
     border-left: 1px solid lightgray;
 }
 
+@include mobile {
+    .resumeDescription{
+        display: none;
+    }
+  }
 
