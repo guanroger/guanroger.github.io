@@ -4,6 +4,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { MdEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
+import StarsCanvas from "../starbackground/starBackground";
+import Starfield from 'react-starfield';
 
 const Parallax = ({ type }) => {
   const image = ["/envelope-solid-w.svg","/linkedin-w.svg", "/github-w.svg"];
@@ -15,6 +17,8 @@ const Parallax = ({ type }) => {
     target: ref,
     offset: ["start start", "end start"],
   });
+
+  const xText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
 
   const yText = useTransform(scrollYProgress, [0, 1], ["0%", "500%"]);
   const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
@@ -30,13 +34,24 @@ const Parallax = ({ type }) => {
             : "linear-gradient(180deg, #111132, #505064)",
       }}
     >
+      <motion.div className="starfield" style={{ x: xText }}>
+        <Starfield
+
+          starCount={3000}
+          starColor={[255, 255, 255]}
+          speedFactor={0.075}
+          backgroundColor="#0c0c1d "
+        />
+      </motion.div>
       
-      <motion.div style={{ y: yText }}>
+      <motion.div className="title" style={{ y: yText }}>
+      
         <center><h1>{type === "services" ? 
         "Roger LIN" : "What We Did?"}</h1>
-       
         <h3> {type === "services" ? 
         "If you DREAM it, you can MAKE IT GO!" : "What We Did?"}</h3>
+        
+        
         </center>
         
       </motion.div>
