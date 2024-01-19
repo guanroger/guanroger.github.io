@@ -42,7 +42,7 @@ const About = () =>{
 
         <div className="about">
             <motion.div className="imageContainer"variants={textVariants} initial="initial" animate="animate">
-                <img src = "/public/aboutme.JPG" alt=""/>
+                <img src = "\public\aboutme.JPG" alt=""/>
             </motion.div>
         
             <div className="wrapper">
