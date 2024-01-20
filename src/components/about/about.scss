@@ -36,7 +36,7 @@
             h2{
                 font-size: 50px;
                 color: rgb(203, 162, 243);
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Garamond', serif;
                 margin-top: 30px;
 
                 @include mobile {
@@ -45,9 +45,15 @@
                 }
                 
             }
+
+            h1{
+              margin-top: -10px;
+              margin-bottom: -20px;
+            }
             
             h3{
                 font-size: 65px;
+                margin-top: -20px;
                 margin-right : 30px;
                 
             @include mobile {
@@ -57,7 +63,7 @@
             }
             h4{
                 font-size: 15px;
-                font-family: 'Roboto Slab', serif;
+                font-family: 'Garamond', serif;
                 margin-right: 30px;
                 line-height: 120%;
 
