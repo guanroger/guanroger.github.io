@@ -45,7 +45,7 @@ const Projects = () =>{
                     My <motion.b whileHover={{color:"orange"}}>Endeavors.</motion.b>
                   </h1>
                   <a  href="https://github.com/guanroger">
-                    <motion.button  onClick="https://github.com/guanroger" whileHover={{ background: "lightgray", color: "black" }}>See More <img src="/github-w.svg" alt=""/></motion.button>
+                    <motion.button  onClick="https://github.com/guanroger" whileHover={{ background: "lightgray", color: "black" }}>See More <img src="/svg/github-w.svg" alt=""/></motion.button>
                   </a>
               </div>
             </motion.div>
