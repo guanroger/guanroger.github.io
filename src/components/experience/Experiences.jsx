@@ -57,7 +57,7 @@ const Experiences = () =>{
                         <motion.div className="name"  variants={textVariants}>Guan-Cherng LIN (Roger)</motion.div>
                         <motion.div className="title" variants={textVariants}> Master's Student in CS</motion.div>
                         <motion.div className="card" variants={textVariants}>
-                            <motion.div className="icon" variants={textVariants}> <img  src="/file-solid.svg" alt="" />
+                            <motion.div className="icon" variants={textVariants}> <img  src="/svg/file-solid.svg" alt="" />
                                 <a className="title" href="/resume/Lin, Guan-Cherng_Resume.pdf">   || Resume</a>
                             </motion.div>
                         </motion.div>
