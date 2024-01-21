@@ -14,14 +14,14 @@ import Others from "./components/others/Others";
 const App = () => {
   return <div>
     
-    <section id ="Homepage"><Navbar/><Parallax type="services"/></section>
+    <section className ="section1" id ="Homepage"><Navbar/><Parallax type="services"/></section>
     <section id ="About"><About/></section>
-    <section ><Experiences/></section>
-    <section id ="Projects"><Projects/></section>
-    <section1 id="Demos"></section1>
+    <section className ="section2"><Experiences/></section>
+    <section className ="section1" id ="Projects"><Projects/></section>
+    <section1 className ="section1" id="Demos"></section1>
     <Demo />
-    <section id ="Others"><Others/></section>
-    <section id ="Contact"><Contact/></section>
+    <section className ="section1" id ="Others"><Others/></section>
+    <section className ="section1" id ="Contact"><Contact/></section>
   </div>;
 };
 
