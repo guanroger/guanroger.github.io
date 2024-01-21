@@ -38,6 +38,7 @@ const Others = () =>{
                 <hr/>
                 <p>{parse("There is one spectacle grander than the sea, that is the sky; <br> There is one spectacle grander than the sky, that is the interior of the soul.")}</p>
             </motion.div>
+    
             <motion.div className="titleContainer"variants={variants} initial="initial" ref={ref} animate="animate">
               <div className="title">
                   <h1>
