@@ -2,7 +2,6 @@ import "./others.scss";
 import {motion, useInView} from "framer-motion";
 import parse from 'html-react-parser';
 import { useRef } from "react";
-import { othersdata } from "./othersData";
 
 
 
@@ -60,7 +59,7 @@ const Others = () =>{
                   }}
                   whileHover={{
                     background: "rgba(0, 0, 0, 0.5)",
-                    backgroundSize: 'cover',
+                    
                     
                   }}
               >
@@ -78,7 +77,6 @@ const Others = () =>{
                   }}
                   whileHover={{
                     background: "rgba(0, 0, 0, 0.5)",
-                    backgroundSize: 'cover',
                     
                   }}
               >
@@ -95,7 +93,7 @@ const Others = () =>{
                   }}
                   whileHover={{
                     background: "rgba(0, 0, 0, 0.5)",
-                    backgroundSize: 'cover',
+                    
                     
                   }}
               >
