@@ -9,6 +9,7 @@ import StarsCanvas from "./components/starbackground/starBackground";
 import Projects from "./components/projects/Projects";
 import Demo from "./components/demo/Demo";
 import Contact from "./components/contact/Contact";
+import Others from "./components/others/Others";
 
 const App = () => {
   return <div>
@@ -17,9 +18,9 @@ const App = () => {
     <section id ="About"><About/></section>
     <section ><Experiences/></section>
     <section id ="Projects"><Projects/></section>
-    <section1 id="Demo"></section1>
+    <section1 id="Demos"></section1>
     <Demo />
-    <section1></section1>
+    <section id ="Others"><Others/></section>
     <section id ="Contact"><Contact/></section>
   </div>;
 };

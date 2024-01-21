@@ -35,7 +35,7 @@ const Parallax = ({ type }) => {
       <motion.div className="starfield" style={{ y: yText }}>
         <Starfield
 
-          starCount={3000}
+          starCount={5000}
           starColor={[255, 255, 255]}
           speedFactor={0.1}
           backgroundColor="#0c0c1d "
