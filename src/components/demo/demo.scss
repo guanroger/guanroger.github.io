@@ -2,7 +2,11 @@
 
 .demo{
     position: relative;
-
+    
+    @include mobile {
+      height: 50%;
+      
+    }
     
   .progress {
     position: sticky;
