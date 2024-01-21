@@ -18,8 +18,8 @@ const App = () => {
     <section id ="About"><About/></section>
     <section className ="section2"><Experiences/></section>
     <section className ="section1" id ="Projects"><Projects/></section>
-    <section1 className ="section2" id="Demos"></section1>
-    <Demo className ="section2" />
+    <section1 id="Demos"></section1>
+    <Demo  />
     <section className ="section1" id ="Others"><Others/></section>
     <section className ="section1" id ="Contact"><Contact/></section>
   </div>;

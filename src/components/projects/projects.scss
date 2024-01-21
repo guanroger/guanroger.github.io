@@ -50,7 +50,7 @@
       width: 100%;
       margin-top: -30px;
     }
-
+    
     
 
     .title {
@@ -132,6 +132,13 @@
     margin-left: 150px;
     margin-right: 200px;
 
+    @media (max-width: 1024px) {
+      margin-left: 10%;
+      margin-right: 200px;
+      align-content: center;
+    }
+    
+
 
     @include mobile{
       flex-direction: column;
@@ -149,6 +156,11 @@
       flex-direction: column;
       justify-content: space-between;
 
+      @media (max-width: 1024px) {
+        padding: 5px;
+      }
+  
+
       @include mobile{
         border: none;
         
@@ -160,8 +172,12 @@
       h2{
         font-size: 20px;
 
+        @media (max-width: 1024px) {
+          font-size: 15px;
+        }
+
         @include mobile{
-          margin-top: -20px;
+          
           font-size: 15px;
           margin-bottom: 5px;
 
