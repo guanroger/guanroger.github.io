@@ -94,7 +94,18 @@
           cursor: pointer;
           font-weight: 300;
           z-index: 1;
+
+          @include mobile {
+            padding: 5px;
+          }
         }
+
+        @include mobile {
+          width: 50%;
+          gap: -50px;
+          
+        }
+      
       }
   }
 
