@@ -57,11 +57,7 @@ const Others = () =>{
                     backgroundSize: 'cover',
                     transition: 'background-color 0.3s ease-in-out', // Optional: Add a smooth transition
                   }}
-                  whileHover={{
-                    background: "rgba(0, 0, 0, 0.5)",
-                    
-                    
-                  }}
+                  
               >
                 <motion.h2 initial ={{display: "block"}}> 3D Modeling</motion.h2>
                 <motion.h3 >Self-learning Blender</motion.h3>
@@ -75,10 +71,7 @@ const Others = () =>{
                     backgroundSize: 'cover',
                     transition: 'background-color 0.3s ease-in-out', // Optional: Add a smooth transition
                   }}
-                  whileHover={{
-                    background: "rgba(0, 0, 0, 0.5)",
-                    
-                  }}
+                  
               >
                 <motion.h2 initial ={{display: "block"}}>{parse("Photo Editing <br>Poster Design")}</motion.h2>
                 <motion.h3 >Using Photoshop, Illustrator, etc.</motion.h3>
@@ -91,11 +84,7 @@ const Others = () =>{
                     backgroundSize: 'cover',
                     transition: 'background-color 0.3s ease-in-out', // Optional: Add a smooth transition
                   }}
-                  whileHover={{
-                    background: "rgba(0, 0, 0, 0.5)",
-                    
-                    
-                  }}
+                  
               >
                 <motion.h2 initial ={{display: "block"}}>{parse("Video Editing <br>Sound Editing")}</motion.h2>
                 <motion.h3 >Using Adobe Premire, Audition, PowerDirector, etc.</motion.h3>

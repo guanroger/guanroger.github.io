@@ -71,7 +71,7 @@ const Contact = () => {
             <motion.a  variants={variants} href="https://github.com/guanroger">
                 <motion.img  variants={variants} src="/svg/github-w.svg" alt="" /> Github
             </motion.a>
-            <motion.a variants={variants} href="mailto: guanchernglin@gmail.com" >
+            <motion.a variants={variants} href="mailto:guanchernglin@gmail.com" >
                 <motion.img variants={variants} src="/svg/envelope-solid-w.svg" alt="" />guanchernglin@gmail.com
             </motion.a>
         </motion.div>
