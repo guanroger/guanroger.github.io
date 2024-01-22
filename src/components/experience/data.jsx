@@ -31,7 +31,7 @@ export const resume = [
       id: 4,
       category: 'education',
       icon: <img src="/svg/graduation-cap-solid.svg" alt="" />,
-      year: 'Aug. 23 - PRESENT',
+      year: 'Aug. 2023 - PRESENT',
       title: 'MS in Computer Science <span> New York University Tandon School of Engineering </span>',
       desc: '',
     },
