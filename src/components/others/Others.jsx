@@ -112,7 +112,7 @@ const Others = () =>{
                 <motion.h2 initial ={{display: "block"}}>{parse("Illustrations<br>for Interests")}</motion.h2>
                 <motion.h3 >Using Photoshop, Illustrator, etc.</motion.h3>
                 <a href="https://www.instagram.com/roger.daydreamingart/">
-                  <motion.h3 >Learn More</motion.h3>
+                  <motion.h3 >Learn More</motion.h3> 
                 </a>
                 
 
