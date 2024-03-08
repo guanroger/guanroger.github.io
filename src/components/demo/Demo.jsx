@@ -22,7 +22,7 @@ const items = [
     title: "HKUST Game Programming Final Project - 2D Platform Action Game",
     img: "/demo/2Dgameplay.png",
     desc: "Cooperated with groupmates to develop a small 2D platform action game using Unity and C. Designed key-binding system for players to move around and shoot enemies, a skill tree system to update status and upgrade weapons. Also designed various levels and difficulties for maps. Innovated and designed the whole concept of the game world, game narrative arcs, features, and scenarios for gameplay",
-    demo: ""
+    demo: "https://github.com/guanroger/HKUST-COMP4451-mini-game"
   },
   {
     id: 4,

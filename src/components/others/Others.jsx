@@ -78,8 +78,8 @@ const Others = () =>{
               >
                 <motion.h2 initial ={{display: "block"}}>{parse("Photo Editing <br>Poster Design")}</motion.h2>
                 <motion.h3 >Using Photoshop, Illustrator, etc.</motion.h3>
-                <a href="">
-                  <motion.h3 ></motion.h3>
+                <a href="https://drive.google.com/drive/folders/1tDKHsro-HEyLz4gk8q_5WTaKZtdrp_1f?usp=sharing">
+                  <motion.h3 >Learn More</motion.h3>
                 </a>
                 
               </motion.div>
@@ -94,8 +94,8 @@ const Others = () =>{
               >
                 <motion.h2 initial ={{display: "block"}}>{parse("Video Editing <br>Sound Editing")}</motion.h2>
                 <motion.h3 >Using Adobe Premire, Audition, PowerDirector, etc.</motion.h3>
-                <a href="">
-                  <motion.h3 ></motion.h3>
+                <a href="https://guanchernglin.wixsite.com/my-video-portfolio">
+                  <motion.h3 >Learn More</motion.h3>
                 </a>
                 
 
