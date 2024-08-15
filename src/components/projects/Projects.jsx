@@ -12,6 +12,7 @@ const items = [
     desc: "This is the personal concept art project I created using Blender and Photoshop.  In this piece, I learn how to generate organic vegetation, and use sculpt tool to add stencils onto the walls.",
     time: "Blender, Self-learning Personal Practice 2024",
     demo:"",
+    button: "See Video", 
   },
   {
     id: 12,
@@ -22,6 +23,7 @@ const items = [
     desc: "This is the personal concept art project I created using Blender and Photoshop. In this piece, I learn how to make snow and photo-realistic cliff by using Sculpt tools",
     time: "Blender, Self-learning Personal Practice 2024",
     demo:"",
+    button: "See Video", 
   },
   {
     id: 11,
@@ -31,7 +33,8 @@ const items = [
     ],
     desc: "This is the course final project I created in a Blender online course using Blender and Photoshop. In the course, I learned a lot by following the instructor, who is a Concept artist working in Gaming Industry, and utilize what he taught inside the final project, including how to use blender, the use of light, the depth and the place of the camera, the use of fog, cinematography, etc. to carve out every detail of this piece.",
     time: "Blender, Self-learning Personal Practice 2024",
-    demo:"",
+    demo:"https://www.youtube.com/watch?v=AyefxouYM1M",
+    button: "See Video", 
   },
   {
     id: 10,
@@ -45,6 +48,7 @@ const items = [
     desc: "Implemented by C/C++, OpenGL and GLSL, this project is for NYU CS-GY 6533 Computer Graphic Course. In this project, the user can choose different kinds of spheres and watches it rolls around the floor. Several features are included in this project, such as Rotation Correctness while translating, Shadow Correction while casting lights, Flat Shading and Smooth Shading, Different Light Sources, Different Fog Options, Texturing, etc. It also can shoot firework from the origin of the floor.",
     time: "CS-GY 6533 Computer Graphic @ NYU (Graduate Level) 2024",
     demo:"https://github.com/guanroger/Computer-Graphic-Project",
+    button: "See Code", 
   },
   {
     id: 9,
@@ -57,6 +61,7 @@ const items = [
     desc: "This is the final result of NYU CS-GY 6513 Big Data Course. We build a website that can give the driver to find the best pickup spot in New York. We use the past Taxi Data captured in NY, with the Big Data knowledge we learned and the past experiences we have (Frontend/Backend & Custering to finish it.",
     time: "CS-GY 6513 Big Data @ NYU (Graduate Level) 2023",
     demo:"https://swiftpick-bigdata-project-online.onrender.com/",
+    button: "See Demo", 
   },
   {
     id: 8,
@@ -68,7 +73,8 @@ const items = [
     ],
     desc: "Cooperated with groupmates to develop a small 2D platform action game using Unity and C. Designed key-binding system for players to move around and shoot enemies, a skill tree system to update status and upgrade weapons. Also designed various levels and difficulties for maps. Innovated and designed the whole concept of the game world, game narrative arcs, features, and scenarios for gameplay",
     time: "COMP4451 Computer Game Design @ HKUST 2021",
-    demo: "https://github.com/guanroger/HKUST-COMP4451-mini-game"
+    demo: "https://github.com/guanroger/HKUST-COMP4451-mini-game",
+    button: "See Code", 
    
   },
   {
@@ -81,7 +87,8 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic modeler, in which I build a robot whose positions can be controlled by the users (the translation, rotation of its joints and body parts). The user can also control the direction of the lights, the display of the robots (different hierarchies, wireframe modes, simple-structure mode, etc.) Apart from that, we also  implement the L-system (its wings), Metaball (its weapons), Inverse kinematics systems to control the position of its arm, and a simple animation.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project2"
+    demo: "https://github.com/ykwongaq/COMP4411_Project2",
+    button: "See Code", 
    
   },
   {
@@ -94,7 +101,8 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic OpenGL campus that can change the image into different art piece by using different brushes, including scattered circle brush, line brush, gradient line brush, etc.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project1"
+    demo: "https://github.com/ykwongaq/COMP4411_Project1",
+    button: "See Code", 
    
   },
   {
@@ -107,7 +115,8 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic OpenGL Ray Tracer. It can showcase some basic refraction, texture mapping, recursive depth, shaped light, etc.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project3"
+    demo: "https://github.com/ykwongaq/COMP4411_Project3",
+    button: "See Code", 
    
   },
   {
@@ -121,7 +130,7 @@ const items = [
     desc: "This website is my pervious personal website, which has the projects that I idealized with my classmates using the HCI techniques learned from the HCI course, such as Prototyping, Storyboarding, Persona-Developing, Speed-Dating, etc. We came up with 3 projects, namely an online-communication tool for the elderlies, Real-time responding chat-bot for tourist advising, and a VR board-game.",
     time: "COMP4461 Human Computer Interaction @ HKUST 2020",
     demo:"https://guanchernglin.wixsite.com/website",
-    
+    button: "See Demo", 
   },
   {
     id: 3,
@@ -133,6 +142,7 @@ const items = [
     desc: "Using JavaScript and HTML, this is a lab project from the Multimedia Computing course, in which we can choose different stored images, and turn them into different styles using several image processing techniques such as Kuwahara Filter, Posterization, Ordered Dithering, etc. It can also increase the saturation of old images and make some stylish pictures, like those in comic books and old posters.",
     time: "COMP4431 Multimedia Computing @ HKUST 2020",
     demo:"https://guanroger.github.io/comp4431-lab-image-processing/",
+    button: "See Demo", 
     
   },
   {
@@ -144,6 +154,7 @@ const items = [
     desc: "Using JavaScript and HTML, this is a lab project from the Multimedia Computing course, in which we can generate different waveforms such as sine, square, sawtooth, etc. and play it out. We also use several different audio processing techniques to generate different sounds in the same frequency. Furthermore, you can also import your favorite MIDI file and it will play it for you.",
     time: "COMP4431 Multimedia Computing @ HKUST 2020",
     demo:"https://guanroger.github.io/comp4431-lab-audio-processing/",
+    button: "See Demo", 
     
   },
   {
@@ -154,7 +165,8 @@ const items = [
     ],
     desc: "First time using HTML/CSS, Cooperated with a senior student in UChoir to build an interactive website.",
     time: "IT Security of The University Choir, HKUSTSU @ HKUST 2019",
-    demo:"https://choir.su.hkust.edu.hk/"
+    demo:"https://choir.su.hkust.edu.hk/",
+    button: "See Demo", 
   },
 ];
 
@@ -218,7 +230,7 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <h4>{item.time}</h4>
             <p>{item.desc}</p>
-            <a href={item.demo}><button>See Demo</button></a>
+            <a href={item.demo}><button>{item.button}</button></a>
           </motion.div>
         </div>
       </div>
