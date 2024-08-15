@@ -37,7 +37,7 @@ const Projects = () =>{
               <div className="title">
                 <img src="/people.webp" alt=""/>
                   <h1>
-                    My <motion.b whileHover={{color:"orange"}}>Github</motion.b>
+                    My <motion.b whileHover={{color:"orange"}}>Projects</motion.b>
                   </h1>
               </div>
               <div className="title">
