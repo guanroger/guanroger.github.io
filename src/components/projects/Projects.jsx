@@ -11,7 +11,7 @@ const items = [
     ],
     desc: "This is the personal concept art project I created using Blender and Photoshop.  In this piece, I learn how to generate organic vegetation, and use sculpt tool to add stencils onto the walls.",
     time: "Blender, Self-learning Personal Practice 2024",
-    demo:"",
+    demo:"https://youtu.be/d0vdxW9c7rU",
     button: "See Video", 
   },
   {
@@ -22,7 +22,7 @@ const items = [
     ],
     desc: "This is the personal concept art project I created using Blender and Photoshop. In this piece, I learn how to make snow and photo-realistic cliff by using Sculpt tools",
     time: "Blender, Self-learning Personal Practice 2024",
-    demo:"",
+    demo:"https://youtu.be/AvHER5zcrt8",
     button: "See Video", 
   },
   {
