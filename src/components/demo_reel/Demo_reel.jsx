@@ -12,7 +12,7 @@ const Demo = () => {
 
   
   return (
-    <div className="demo" ref={ref}>
+    <div className="demo_reel" ref={ref}>
       <div className="progress">
         <h1>Demo Reel</h1>
         <div className="progressBar"></div>

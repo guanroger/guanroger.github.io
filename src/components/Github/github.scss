@@ -16,9 +16,12 @@
     margin-top: 40px;
     
     @include mobile{
-      align-self: start;
-      margin-left: 75%;
+      flex: 1;
+      align-self: center;
+      margin-top: 3px;
     }
+
+
     
 
     p {
@@ -26,8 +29,10 @@
       font-size: 20px;
       color: gray;
       text-align: right;
-      @include mobile{
-        text-align: left;
+
+      @include mobile {
+        text-align: center;
+        font-size: 15px;
       }
     }
 
@@ -35,6 +40,10 @@
       width: 500px;
       border: none;
       border-top: 0.5px solid gray;
+
+      @include mobile {
+        display: none;
+      }
 
       
     }
@@ -91,31 +100,32 @@
       }
 
       button {
+        display: flex; // Add this to use flexbox
+        align-items: center; // Center text vertically
+        justify-content: center; // Center text horizontally
         width: 225px;
         height: 60px;
         border-radius: 50px;
         background-color: orange;
         border: none;
         font-size: 24px;
-        align-items: center;
-        padding: 13px 2px;
         cursor: pointer;
 
-        @include mobile{
+        @include mobile {
           font-size: 19px;
           width: 170px;
+          height: 50px; // Adjust height for mobile
           margin-top: -20px;
-
         }
-        
-        img{
-          width: 20px;
-          height: 20px;
+
+        img {
+          width: 25px;
+          height: 25px;
           margin-left: 25px;
-          @include mobile{
-            
-            padding-top: -20px;
-  
+
+          @include mobile {
+            padding-top: 0px; // Fix padding for mobile
+            margin-bottom: 1px;
           }
         }
       }
