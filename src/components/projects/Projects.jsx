@@ -4,13 +4,25 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 
 const items = [
   {
+    id: 14,
+    title: "Blender - The Fire Dragon",
+    img: [
+      "/project_imgs/blender/dragon.png",
+      "/project_imgs/blender/dragon2.png",
+    ],
+    desc: "This is the personal concept art project I created using Blender, Photoshop, and Substance Painter.  In this piece, I create the red fire dragon on my own from character designing, modeling, sculpting, retopology, texturing, rigging. I also animated the flying cycle and did the post-production. The idea of the dragon is mostly from Game of Throne, How to Train Your Dragon, and other fantasy movies.", 
+    time: "Blender, PS, Substance Painter, Self-learning Personal Practice 2024",
+    demo:"https://youtu.be/ZIOvnwrAJdM",
+    button: "See Video", 
+  },
+  {
     id: 13,
     title: "Blender - The Mystery Temple",
     img: [
       "/project_imgs/blender/tample.png",
     ],
     desc: "This is the personal concept art project I created using Blender and Photoshop.  In this piece, I learn how to generate organic vegetation, and use sculpt tool to add stencils onto the walls.",
-    time: "Blender, Self-learning Personal Practice 2024",
+    time: "Blender, PS, Self-learning Personal Practice 2024",
     demo:"https://youtu.be/d0vdxW9c7rU",
     button: "See Video", 
   },
@@ -21,7 +33,7 @@ const items = [
       "/project_imgs/blender/castle.png",
     ],
     desc: "This is the personal concept art project I created using Blender and Photoshop. In this piece, I learn how to make snow and photo-realistic cliff by using Sculpt tools",
-    time: "Blender, Self-learning Personal Practice 2024",
+    time: "Blender, PS, Self-learning Personal Practice 2024",
     demo:"https://youtu.be/AvHER5zcrt8",
     button: "See Video", 
   },
@@ -32,7 +44,7 @@ const items = [
       "/project_imgs/blender/dam.png",
     ],
     desc: "This is the course final project I created in a Blender online course using Blender and Photoshop. In the course, I learned a lot by following the instructor, who is a Concept artist working in Gaming Industry, and utilize what he taught inside the final project, including how to use blender, the use of light, the depth and the place of the camera, the use of fog, cinematography, etc. to carve out every detail of this piece.",
-    time: "Blender, Self-learning Personal Practice 2024",
+    time: "Blender, PS, Self-learning Personal Practice 2024",
     demo:"https://www.youtube.com/watch?v=AyefxouYM1M",
     button: "See Video", 
   },
