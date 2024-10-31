@@ -4,11 +4,27 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 
 const items = [
   {
+    id: 15,
+    title: "NYU Computer Game Deign",
+    img: [
+      "/project_imgs/NYU games/nyugame1.png",
+      "/project_imgs/NYU games/nyugame2.png",
+      "/project_imgs/NYU games/nyugame3.png",
+      "/project_imgs/NYU games/nyugame4.png",
+    ],
+    desc: "With Unity and GameMaker, I developed a series of game prototypes that explore key elements of game mechanics and design. Each project was completed in a week, focusing on a distinct aspect of game design such as Procedural Content Generation, Level Design, Resource Management Systems, Game Feel, Minimalism, etc. These prototypes provided hands-on experience in rapidly implementing and iterating on gameplay mechanics. I self-taught Unity and experimented with various game development engines, learning how to integrate technical tools with creative design principles effectively. Through this process, I honed my skills in rapid prototyping, problem-solving, and designing engaging user experiences.",
+    time: "CS-GY 6533 Computer Game @ NYU (Graduate Level) 2024",
+    demo:"https://rogerguan.itch.io/",
+    button: "See Demo", 
+  },
+  {
     id: 14,
     title: "Blender - The Fire Dragon",
     img: [
       "/project_imgs/blender/dragon.png",
       "/project_imgs/blender/dragon2.png",
+      "/project_imgs/blender/dragon3.png",
+      "/project_imgs/blender/dragon4.png",
     ],
     desc: "This is the personal concept art project I created using Blender, Photoshop, and Substance Painter.  In this piece, I create the red fire dragon on my own from character designing, modeling, sculpting, retopology, texturing, rigging. I also animated the flying cycle and did the post-production. The idea of the dragon is mostly from Game of Throne, How to Train Your Dragon, and other fantasy movies.", 
     time: "Blender, PS, Substance Painter, Self-learning Personal Practice 2024",

@@ -12,7 +12,10 @@
 
     
   .progress {
+
+    
     position: sticky;
+    z-index: 10; // Higher z-index to bring it to the front
     top: 0;
     left: 0;
     padding-top: 30px;
@@ -177,6 +180,7 @@
         .prevButton,
         .nextButton {
           position: absolute;  // Ensure buttons are positioned relative to the image container
+          z-index: 5; // Higher z-index to bring it to the front
           width: 1%;
           height: 3%;
           margin-top: 13%;
