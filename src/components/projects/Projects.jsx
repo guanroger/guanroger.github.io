@@ -115,7 +115,7 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic modeler, in which I build a robot whose positions can be controlled by the users (the translation, rotation of its joints and body parts). The user can also control the direction of the lights, the display of the robots (different hierarchies, wireframe modes, simple-structure mode, etc.) Apart from that, we also  implement the L-system (its wings), Metaball (its weapons), Inverse kinematics systems to control the position of its arm, and a simple animation.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project2",
+    demo: "https://github.com/guanroger/HKUST_COMP4411_Modeler",
     button: "See Code", 
    
   },
@@ -129,7 +129,7 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic OpenGL campus that can change the image into different art piece by using different brushes, including scattered circle brush, line brush, gradient line brush, etc.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project1",
+    demo: "https://github.com/guanroger/HKUST_COMP4411_Impressionist",
     button: "See Code", 
    
   },
@@ -143,7 +143,7 @@ const items = [
     ],
     desc: "Using C/C++ and OpenGL, I cooperated with groupmate to implement a basic OpenGL Ray Tracer. It can showcase some basic refraction, texture mapping, recursive depth, shaped light, etc.",
     time: "COMP4411 Computer Graphic @ HKUST 2021",
-    demo: "https://github.com/ykwongaq/COMP4411_Project3",
+    demo: "https://github.com/guanroger/HKUST_COMP4411_RayTracer",
     button: "See Code", 
    
   },
