@@ -63,6 +63,7 @@
             max-width: 25vw;
             margin-left: 40px;
             color: #090f52;
+            font-family: 'Garamond', serif;
 
             @include mobile {
                 display: none;
@@ -86,6 +87,7 @@
             }
             .title{
             font-size: 14px;
+            font-family: 'Garamond', serif;
             font-style: italic;
             color: text-color;
             text-align:justify;

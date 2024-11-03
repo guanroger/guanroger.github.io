@@ -73,7 +73,7 @@ const Experiences = () =>{
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
                             <motion.div className="icon" variants={textVariants}> <img  src="/svg/house-solid.svg" alt="" />
-                                <a className="title">  || 689 5th Ave. #3A, Brooklyn, NY, US</a>
+                                <a className="title">  || Brooklyn, NY, US</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
