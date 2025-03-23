@@ -20,10 +20,10 @@ const App = () => {
     <section className ="section1" id ="Homepage"><Navbar/><Parallax type="services"/></section>
     <section id ="About"><About/></section>
     <section className ="section2"><Experiences/></section>
-    <section className ="section1" id ="ProjectCon"> <ProjectCon/></section>
+    <section className ="section1" id ="Projects"> <ProjectCon/></section>
    
 
-    <section3 id="Projects"></section3>
+    <section3 id="ProjectCon"></section3>
     <Projects/>
     
     <section className ="section1" id ="Github"><Github/></section>
