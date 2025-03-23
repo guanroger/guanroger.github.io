@@ -4,6 +4,20 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 
 const items = [
   {
+    id: 16,
+    title: "VR Interactive Music Museum",
+    img: [
+      "/project_imgs/VR/VR1.jpg",
+      "/project_imgs/VR/VR2.jpg",
+      "/project_imgs/VR/VR3.jpg",
+      "/project_imgs/VR/VR4.jpg",
+    ],
+    desc: "I developed a VR Interactive Museum in Unity, dedicated to Baroque music and art, enhancing immersion and user engagement through interactive experiences. Key features include exhibits with composer biographies, videos, and artwork descriptions, a virtual performance hall, and an interactive learning space. I optimized visual and audio performance by applying techniques such as global illumination, level of detail (LOD), and occlusion culling, ensuring smooth integration with the Google Cardboard SDK for mobile applications.",
+    time: "CS-GY 9223 Virtual and Augmented Reality @ NYU (Graduate Level) 2024",
+    demo:"https://rogerguan.itch.io/vr-museum",
+    button: "See Demo", 
+  },
+  {
     id: 15,
     title: "NYU Computer Game Deign",
     img: [
