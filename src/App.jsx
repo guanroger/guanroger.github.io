@@ -12,6 +12,7 @@ import Demo_old from "./components/demo_old/Demo";
 import Demo_reel from "./components/demo_reel/Demo_reel";
 import Contact from "./components/contact/Contact";
 import Others from "./components/others/Others";
+import ProjectCon from "./components/projects/ProjectsCon";
 
 const App = () => {
   return <div>
@@ -19,6 +20,8 @@ const App = () => {
     <section className ="section1" id ="Homepage"><Navbar/><Parallax type="services"/></section>
     <section id ="About"><About/></section>
     <section className ="section2"><Experiences/></section>
+    <section className ="section1" id ="ProjectCon"> <ProjectCon/></section>
+   
 
     <section3 id="Projects"></section3>
     <Projects/>

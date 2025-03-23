@@ -19,8 +19,10 @@
     "html-react-parser": "^5.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-slick": "^0.30.3",
     "react-starfield": "^1.0.3",
-    "react-vertical-timeline-component": "^3.6.0"
+    "react-vertical-timeline-component": "^3.6.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/react": "18.2.15",

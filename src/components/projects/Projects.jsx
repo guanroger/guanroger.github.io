@@ -4,7 +4,7 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 
 const items = [
   {
-    id: 16,
+    id: "project-16",
     title: "VR Interactive Music Museum",
     img: [
       "/project_imgs/VR/VR1.jpg",
@@ -18,7 +18,7 @@ const items = [
     button: "See Demo", 
   },
   {
-    id: 15,
+    id: "project-15",
     title: "NYU Computer Game Deign",
     img: [
       "/project_imgs/NYU games/nyugame1.png",
@@ -32,7 +32,7 @@ const items = [
     button: "See Demo", 
   },
   {
-    id: 14,
+    id: "project-14",
     title: "Blender - The Fire Dragon",
     img: [
       "/project_imgs/blender/dragon.png",
@@ -46,7 +46,7 @@ const items = [
     button: "See Video", 
   },
   {
-    id: 13,
+    id: "project-13",
     title: "Blender - The Mystery Temple",
     img: [
       "/project_imgs/blender/tample.png",
@@ -57,7 +57,7 @@ const items = [
     button: "See Video", 
   },
   {
-    id: 12,
+    id: "project-12",
     title: "Blender - The Castle in the Mountain",
     img: [
       "/project_imgs/blender/castle.png",
@@ -68,7 +68,7 @@ const items = [
     button: "See Video", 
   },
   {
-    id: 11,
+    id: "project-11",
     title: "Blender - The Dam Wall",
     img: [
       "/project_imgs/blender/dam.png",
@@ -79,7 +79,7 @@ const items = [
     button: "See Video", 
   },
   {
-    id: 10,
+    id: "project-10",
     title: "NYU Computer Graphic Project",
     img: [
       "/project_imgs/CG/CG1.png",
@@ -93,7 +93,7 @@ const items = [
     button: "See Code", 
   },
   {
-    id: 9,
+    id: "project-9",
     title: "NYU Swiftpick",
     img: [
       "/project_imgs/bigdata/bigdata1.png",
@@ -106,7 +106,7 @@ const items = [
     button: "See Demo", 
   },
   {
-    id: 8,
+    id: "project-8",
     title: "2D Platform Action Game -   The Witches Hunter",
     img: [ "/project_imgs/2D_game/2Dgameplay1.png",
       "/project_imgs/2D_game/2Dgameplay2.png",
@@ -120,7 +120,7 @@ const items = [
    
   },
   {
-    id: 7,
+    id: "project-7",
     title: "Computer Graphic - Modeler",
     img: [ "/project_imgs/modeller/model1.png",
       "/project_imgs/modeller/model2.png",
@@ -134,7 +134,7 @@ const items = [
    
   },
   {
-    id: 6,
+    id: "project-6",
     title: "Computer Graphic - Impressionist",
     img: [ "/project_imgs/impressionist/imp1.png",
       "/project_imgs/impressionist/imp2.png",
@@ -148,7 +148,7 @@ const items = [
    
   },
   {
-    id: 5,
+    id: "project-5",
     title: "Computer Graphic - Ray Tracer",
     img: [ "/project_imgs/raytracer/ray1.png",
       "/project_imgs/raytracer/ray2.png",
@@ -162,7 +162,7 @@ const items = [
    
   },
   {
-    id: 4,
+    id: "project-4",
     title: "Human Computer Interaction Final Personal Project",
     img: ["/project_imgs/HCI/HCI-web.jpg",
       "/project_imgs/HCI/HCI-web2.png",
@@ -175,7 +175,7 @@ const items = [
     button: "See Demo", 
   },
   {
-    id: 3,
+    id: "project-3",
     title: "Multimedia Computing Image Processor",
     img: ["/project_imgs/imageprocessing/image1.png",
       "/project_imgs/imageprocessing/image2.png",
@@ -188,7 +188,7 @@ const items = [
     
   },
   {
-    id: 2,
+    id: "project-2",
     title: "Multimedia Computing Audio Processor",
     img: ["/project_imgs/audioprocessing/audio1.png",
       "/project_imgs/audioprocessing/audio2.png",
@@ -200,7 +200,7 @@ const items = [
     
   },
   {
-    id: 1,
+    id: "project-1",
     title: "HKUST UChoir Offical Website",
     img: ["/project_imgs/uchoir_image/hkustchoir1.png",
       "/project_imgs/uchoir_image/hkustchoir2.png",
@@ -252,7 +252,7 @@ const Single = ({ item }) => {
 
   return (
     <section >
-      <div className="container">
+      <div id = {item.id} className="container">
         <div className="wrapper">
           <div className="imageContainer" ref={ref}>
             <button className="prevButton" onClick={prevImage}>
@@ -272,7 +272,10 @@ const Single = ({ item }) => {
             <h2>{item.title}</h2>
             <h4>{item.time}</h4>
             <p>{item.desc}</p>
-            <a href={item.demo}><button>{item.button}</button></a>
+            <div class="button-container">
+              <a href={item.demo}><button class="demo-button">{item.button}</button></a>
+              <a href="#ProjectCon" target="_self"><button class="back-button">Back</button></a>
+            </div>
           </motion.div>
         </div>
       </div>

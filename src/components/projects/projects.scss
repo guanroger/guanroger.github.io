@@ -273,8 +273,13 @@
 
 
         }
-
-        button {
+        .button-container {
+          display: flex;
+          gap: 30px; /* Optional: Adds space between buttons */
+        }
+        
+        .demo-button {
+          /* Style your demo button as needed */
           background-color: orange;
           border: none;
           border-radius: 10px;
@@ -282,7 +287,17 @@
           width: 200px;
           cursor: pointer;
         }
-      
+        
+        .back-button {
+          background-color: rgba(242, 239, 233, 0.418);
+          border: none;
+          border-radius: 10px;
+          padding: 10px;
+          width: 100px;
+          cursor: pointer;
+        }
+
+
     }
   }
 }
