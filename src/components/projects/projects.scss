@@ -276,6 +276,8 @@
         .button-container {
           display: flex;
           gap: 30px; /* Optional: Adds space between buttons */
+          z-index: 10; /* Make sure the container is clickable */
+          
         }
         
         .demo-button {
