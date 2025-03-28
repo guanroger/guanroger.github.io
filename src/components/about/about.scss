@@ -97,7 +97,8 @@
                   z-index: 1;
                 }
                 @include mobile {
-                  display: none;
+                  padding: 0px;
+                  padding-top: -50%;
                 }
               }
               
@@ -106,7 +107,7 @@
             }
 
             @include mobile {
-              margin-top: 200px;
+              margin-top: 50%;
             }
 
           }
@@ -120,16 +121,17 @@
             right: 55%;
             margin-top: 30px;
 
+            
 
             @include mobile {
-              height: 70%;
+             
+              height: 30%;
+              width: 80%;
               bottom: -50%; // Keep the image at the bottom on mobile as well
               
               margin-right: auto;
-              right: -10%;
-              margin-top: 180%; // Ensure no margin at the top to keep the image at the bottom
-            
-              
+              right: 15%;
+              margin-top: 220%; // Ensure no margin at the top to keep the image at the botto
             }
         
             img{
@@ -140,10 +142,10 @@
 
 
               @include mobile {
-                margin-top: 50px;
-                margin-right: 50px;
-                width: 60%;
-                height: 60%;
+                margin-top: 10%;
+                margin-right: 10%;
+                width: 70%;
+                height: 70%;
                 
                 
               }

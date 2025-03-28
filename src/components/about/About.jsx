@@ -72,6 +72,9 @@ const About = () =>{
                         <motion.a  variants={textVariants} href="https://github.com/guanroger">
                             <motion.img  variants={textVariants} src="/svg/github-w.svg" alt="" />
                         </motion.a>
+                        <motion.a  variants={textVariants} href="https://rogerguan.itch.io/">
+                            <motion.img  variants={textVariants} src="/svg/itchio-textless-white.svg" alt="" />
+                        </motion.a>
                     </motion.div>
                     <motion.div
                         className="slidingTextContainer"

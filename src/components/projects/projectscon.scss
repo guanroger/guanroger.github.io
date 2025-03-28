@@ -53,6 +53,7 @@
 
     @include mobile {
       width: 100%;
+     
       margin-top: -30px;
     }
 
@@ -64,6 +65,7 @@
       @include mobile {
         flex-direction: column;
         text-align: center;
+        height: 10%;
         gap: 20px;
       }
 
@@ -76,6 +78,7 @@
         @include mobile {
           width: 200px;
           height: 50px;
+          height: 20%;
           margin-bottom: -18px;
         }
       }
@@ -165,8 +168,8 @@
 
       @include mobile {
 
-        margin-top: 30%;
-        width: 90%;
+        margin-top: 10%;
+        width: 85%;
         height: 100%;
         display: flex;
         justify-content: center;

@@ -59,7 +59,7 @@ const Others = () =>{
                   }}
                   
               >
-                <motion.h2 initial ={{display: "block"}}> 3D Modeling</motion.h2>
+                <motion.h2 initial ={{display: "block"}}>{parse("3D modeling <br>Animation")}</motion.h2>
                 <motion.h3 >Self-learning Blender & Maya</motion.h3>
                 <a href="https://github.com/guanroger/Maya-Practice">
                   <motion.h3 >Learn More...</motion.h3>
