@@ -58,7 +58,7 @@ const Experiences = () =>{
                         <motion.div className="title" variants={textVariants}> Master's Student in CS</motion.div>
                         <motion.div className="card" variants={textVariants}>
                             <motion.div className="icon" variants={textVariants}> <img  src="/svg/file-solid.svg" alt="" />
-                                <a className="title" href="/resume/Lin, Guan-Cherng_Resume.pdf">   || Resume</a>
+                                <a className="title"  target="_blank" rel="noopener noreferrer" href="/resume/Lin, Guan-Cherng_Resume.pdf">   || Resume</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
@@ -78,12 +78,20 @@ const Experiences = () =>{
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
                             <motion.div className="icon" variants={textVariants}> <img  src="/svg/linkedin-b.svg" alt="" />
-                            <a className="title" href="https://www.linkedin.com/in/guan-cherng-lin-roger-3128b019a/">  || LinkedIn</a>
+                            <a className="title" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/roger-lin-3128b019a/">  || LinkedIn</a>
                             </motion.div>
                         </motion.div>
                         <motion.div className="card" variants={textVariants}>
                             <motion.div className="icon" variants={textVariants}> <img  src="/svg/github-b.svg" alt="" />
-                            <a className="title" href="https://github.com/guanroger">  || Github</a>
+                            <a className="title" target="_blank" rel="noopener noreferrer" href="https://github.com/guanroger">  || Github</a>
+                            </motion.div>
+                        </motion.div>
+                        <motion.div className="card" variants={textVariants}>
+                            <motion.div className="icon" variants={textVariants}> <img  src="svg/itchio-textless-white.svg" alt="" style={{
+                                width: "6%",               // or use a fixed size like "20px"
+                                filter: "invert(1)",        // turns white to black
+                            }}/>
+                            <a className="title" target="_blank" rel="noopener noreferrer" href="https://rogerguan.itch.io/">  || Itch.io</a>
                             </motion.div>
                         </motion.div>
                     </motion.div>

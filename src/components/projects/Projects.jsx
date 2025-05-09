@@ -4,6 +4,21 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 
 const items = [
   {
+    id: "project-17",
+    title: "Fire Dragon Cinematic Aniamtion",
+    img: [
+      "/project_imgs/3D Animation/dragon_ani_1.png",
+      "/project_imgs/3D Animation/dragon_ani_2.png",
+      "/project_imgs/3D Animation/dragon_ani_3.png",
+      "/project_imgs/3D Animation/dragon_ani_4.png",
+      "/project_imgs/3D Animation/dragon_ani_5.png",
+    ],
+    desc: "I developed a cinematic Red Dragon Animation in Unity. This project showcases my skills in 3D character modeling, texturing, environment design, and animation. I designed and modeled the dragon in Blender, textured it using Substance Painter, and created the full animation and environment in Unity within a week. Drawing inspiration from Maleficent, I focused on achieving a dramatic, fantasy atmosphere through dynamic camera work, lighting, and atmospheric effects. The project demonstrates my ability to manage the full 3D animation pipeline from asset creation to real-time rendering.",
+    time: "GAMES-GT 200 Intro to 3D Game Animation @ NYU (Graduate Level) 2025",
+    demo:"https://www.youtube.com/watch?v=WRc50zH89Y8",
+    button: "See Video", 
+  },
+  {
     id: "project-16",
     title: "VR Interactive Music Museum",
     img: [
@@ -250,6 +265,9 @@ const Single = ({ item }) => {
     setCurrentImage((prev) => (prev - 1 + item.img.length) % item.img.length);
   };
 
+
+
+
   return (
     <section >
       <div id = {item.id} className="container">
@@ -273,7 +291,7 @@ const Single = ({ item }) => {
             <h4>{item.time}</h4>
             <p>{item.desc}</p>
             <div class="button-container">
-              <a href={item.demo}><button class="demo-button">{item.button}</button></a>
+              <a target="_blank" rel="noopener noreferrer" href={item.demo}><button class="demo-button">{item.button}</button></a>
               <a href="#Projects" target="_self"><button class="back-button">Back To Top</button></a>
             </div>
           </motion.div>

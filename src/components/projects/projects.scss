@@ -201,7 +201,7 @@
           transform: translateY(-50%);
           background-color: rgba(0, 0, 0, 0.3);
           border: none;
-          color: white;
+          color: orange;
           font-size: 2rem;
           padding: 0.1rem;
           cursor: pointer;
@@ -209,7 +209,7 @@
 
           &:hover {
             background-color: rgba(0, 0, 0, 0.7);
-            color: orange;
+            color: white;
           }
         }
 

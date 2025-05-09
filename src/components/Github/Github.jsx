@@ -44,7 +44,7 @@ const Projects = () =>{
                   <h1>
                     My <motion.b whileHover={{color:"orange"}}>Endeavors.</motion.b>
                   </h1>
-                  <a  href="https://github.com/guanroger">
+                  <a target="_blank" rel="noopener noreferrer"  href="https://github.com/guanroger">
                     <motion.button  onClick="https://github.com/guanroger" whileHover={{ background: "lightgray", color: "black" }}>See More <img src="/svg/github-w.svg" alt=""/></motion.button>
                   </a>
               </div>
@@ -58,7 +58,7 @@ const Projects = () =>{
                 <p>
                   NYU Tandon Big Data Course using pyspark, MongoDB.
                 </p>
-                <a href="https://github.com/guanroger/CS-GY6513-2023-Fall-Big-Data-Final">
+                <a target="_blank" rel="noopener noreferrer"  href="https://github.com/guanroger/CS-GY6513-2023-Fall-Big-Data-Final">
                   <button>Go</button>
                 </a>
               </motion.div>
@@ -70,7 +70,7 @@ const Projects = () =>{
                 <p>
                   Personal Webpage using React.js.
                 </p>
-                <a href="https://github.com/guanroger/guanroger.github.io">
+                <a target="_blank" rel="noopener noreferrer"  href="https://github.com/guanroger/guanroger.github.io">
                   <button>Go</button>
                 </a>
               </motion.div>
@@ -82,7 +82,7 @@ const Projects = () =>{
                 <p>
                   4 HKUST Computer Graphic Group Projects using OpenGL.
                 </p>
-                <a href="https://github.com/guanroger/COMP4411_Project1">
+                <a target="_blank" rel="noopener noreferrer"  href="https://github.com/guanroger/COMP4411_Project1">
                   <button>Go</button>
                 </a>
               </motion.div>
@@ -94,7 +94,7 @@ const Projects = () =>{
                 <p>
                    HKUST Final Year Project using Python and Flask.
                 </p>
-                <a href="https://github.com/guanroger/LAAFU-server-demo">
+                <a target="_blank" rel="noopener noreferrer"  href="https://github.com/guanroger/LAAFU-server-demo">
                   <button>Go</button>
                 </a>
               </motion.div>

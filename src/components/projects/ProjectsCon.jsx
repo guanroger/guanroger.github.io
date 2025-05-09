@@ -29,6 +29,13 @@ const variants = {
 
 const datas =[
     {
+        id:17,
+        image: '/project_imgs/3D Animation/dragon_ani_2.png',
+        title: 'Fire Dragon Cinematic Aniamtion',
+        content:'Game Animation, Unity',
+        
+    },
+    {
         id:16,
         image: '/project_imgs/VR/VR1.jpg',
         title: 'VR Interactive Music Museum',

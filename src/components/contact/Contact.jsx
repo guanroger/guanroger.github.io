@@ -62,13 +62,13 @@ const Contact = () => {
         <h3>Thanks for your time.</h3>
         <h3>Feel Free to Contact Me. :)</h3>
         <motion.div variants={variants} className="buttons">
-        <motion.a variants={variants} href="/resume/Lin, Guan-Cherng_Resume.pdf">
+        <motion.a variants={variants} target="_blank" rel="noopener noreferrer" href="/resume/Lin, Guan-Cherng_Resume.pdf">
                 <motion.img  variants={variants} src="/svg/file-solid-w.svg" alt="" /> Resume
             </motion.a>
-            <motion.a variants={variants} href="https://www.linkedin.com/in/guan-cherng-lin-roger-3128b019a/">
+            <motion.a variants={variants} target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/roger-lin-3128b019a/">
                 <motion.img  variants={variants} src="/svg/linkedin-w.svg" alt="" /> LinkedIn
             </motion.a>
-            <motion.a  variants={variants} href="https://github.com/guanroger">
+            <motion.a  variants={variants} target="_blank" rel="noopener noreferrer" href="https://github.com/guanroger">
                 <motion.img  variants={variants} src="/svg/github-w.svg" alt="" /> Github
             </motion.a>
             <motion.a variants={variants} href="mailto:guanchernglin@gmail.com" >

@@ -63,19 +63,20 @@ const About = () =>{
                     I'm also driven by a passion for continuous learning and embracing new technologies to enhance my skills. Crafting solutions that others find valuable is a source of great accomplishment for me.
                     If you’d like to get in touch, feel free to contact me at any time. I'm always open for connections.</motion.h4>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.a variants={textVariants} href="mailto: guanchernglin@gmail.com" >
+                        <motion.a variants={textVariants}  href="mailto: guanchernglin@gmail.com" >
                             <motion.img variants={textVariants} src="/svg/envelope-solid-w.svg" alt="" />
                         </motion.a>
-                        <motion.a variants={textVariants} href="https://www.linkedin.com/in/guan-cherng-lin-roger-3128b019a/">
+                        <motion.a variants={textVariants}  target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/roger-lin-3128b019a/">
                             <motion.img  variants={textVariants} src="/svg/linkedin-w.svg" alt="" />
                         </motion.a>
-                        <motion.a  variants={textVariants} href="https://github.com/guanroger">
+                        <motion.a  variants={textVariants}  target="_blank" rel="noopener noreferrer" href="https://github.com/guanroger">
                             <motion.img  variants={textVariants} src="/svg/github-w.svg" alt="" />
                         </motion.a>
-                        <motion.a  variants={textVariants} href="https://rogerguan.itch.io/">
+                        <motion.a  variants={textVariants} target="_blank" rel="noopener noreferrer" href="https://rogerguan.itch.io/">
                             <motion.img  variants={textVariants} src="/svg/itchio-textless-white.svg" alt="" />
                         </motion.a>
                     </motion.div>
+                    
                     <motion.div
                         className="slidingTextContainer"
                         variants={sliderVariants}

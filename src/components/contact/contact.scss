@@ -1,16 +1,16 @@
 @import "../../app.scss";
 
 .contact {
-  position: absolute; // Add relative positioning
-  height: 100vh; // Set the contact section to half of the viewport height
+  position: relative;
+  height: 100vh;
   max-width: 1366px;
   margin: auto;
-  
+
   display: flex;
   align-items: center;
   gap: 50px;
-  
-  overflow: hidden; // Hide the content that overflows the container
+
+  overflow: hidden;
 
   @include mobile {
     width: 100%;
@@ -20,30 +20,41 @@
   }
 
   .bg {
-    height: 300%; // Set height to cover the entire contact section and overflow into the upper half
+    height: 300%;
     width: 100%;
     position: fixed;
     z-index: -1;
-    top:0px; // Align with the top of the viewport
-    .starbackground{
+    top: 0px;
+
+    .starbackground {
       width: 100%;
       height: 100%;
       z-index: 999;
-      position: fixed; 
+      position: fixed;
     }
   }
-  .bt{
-    position: relative;
-    width: 200%;
-    bottom: 0%;
-    right: 0%;
-    text-align: right ;
-    margin-top: auto;
-    font-size: 10px;
-    letter-spacing: 1.5px;
-    
-  }
 
+  .bt {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 1vw; // Responsive font size based on viewport width
+    text-align: right;
+    letter-spacing: 0.15vw; // Also responsive
+    white-space: nowrap; // Prevent line break if the word is long
+
+    @include mobile {
+      bottom: 10%;
+      right: 10%;
+      font-size: 2.5vw;
+      letter-spacing: 0.25vw;
+    }
+
+    span {
+      display: inline-block;
+      transform: translate(0%, 0%); // No extra offset unless desired
+    }
+  }
 
   .textContainer {
     flex: 1;
@@ -54,70 +65,65 @@
 
     @include mobile {
       gap: 20px;
-      text-align:  left;
-      align-items: left;
+      text-align: left;
+      align-items: flex-start;
       margin-top: 70px;
-      
     }
 
-    h3{
-        font-size: 35px;
-        color: rgb(203, 162, 243);
-        
-        font-family: 'Garamond', serif;
-        margin-top: -30px;
-        @include mobile {
-          font-size: 30px;
-          margin-top: -10px;
-        }
-        
-        
+    h3 {
+      font-size: 35px;
+      color: rgb(203, 162, 243);
+      font-family: 'Garamond', serif;
+      margin-top: -30px;
+
+      @include mobile {
+        font-size: 30px;
+        margin-top: -10px;
+      }
     }
 
     h1 {
       font-size: 100px;
       line-height: 88px;
+
       @include mobile {
         font-size: 60px;
-        
       }
-      
     }
 
     span {
       font-weight: 300;
     }
-    .buttons {
-        button {
-          padding: 20px;
-          border: 1px solid white;
-          border-radius: 10px;
-          background-color: transparent;
-          color: white;
-          margin-right: 25px;
-          margin-bottom: 25px;
-          cursor: pointer;
-          font-weight: 300;
-          z-index: 1;
 
-          @include mobile {
-            padding: 5px;
-          }
-        }
+    .buttons {
+      button {
+        padding: 20px;
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        cursor: pointer;
+        font-weight: 300;
+        z-index: 1;
 
         @include mobile {
-          display: flex;
-          flex-direction:row;
-          gap: 10px;
-          text-align: left;
-          a {
-            font-size: 10px;
-
-          }
-          
+          padding: 5px;
         }
-      
       }
+
+      @include mobile {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        text-align: left;
+
+        a {
+          font-size: 10px;
+        }
+      }
+    }
   }
 
   .formContainer {
@@ -126,22 +132,17 @@
     z-index: 2;
     padding-bottom: 36%;
     padding-right: 100px;
+
     @include mobile {
-        size: 30%;
-        margin-right: 50%;
-        
-      }
+      size: 30%;
+      margin-right: 50%;
     }
+  }
 
-    .phoneSvg {
-      stroke: orange;
-      position: absolute;
-      margin: auto;
-      z-index: -1;
-
-      
-
-   
-    
+  .phoneSvg {
+    stroke: orange;
+    position: absolute;
+    margin: auto;
+    z-index: -1;
   }
 }
