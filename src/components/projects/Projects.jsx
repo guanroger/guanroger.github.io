@@ -5,7 +5,7 @@ import { motion, useInView, useScroll, useSpring, useTransform } from "framer-mo
 const items = [
   {
     id: "project-17",
-    title: "Fire Dragon Cinematic Aniamtion",
+    title: "Fire Dragon Cinematic Animation",
     img: [
       "/project_imgs/3D Animation/dragon_ani_1.png",
       "/project_imgs/3D Animation/dragon_ani_2.png",
@@ -54,11 +54,12 @@ const items = [
       "/project_imgs/blender/dragon2.png",
       "/project_imgs/blender/dragon3.png",
       "/project_imgs/blender/dragon4.png",
+      "/project_imgs/blender/dragon8.png",
     ],
     desc: "This is the personal concept art project I created using Blender, Photoshop, and Substance Painter.  In this piece, I create the red fire dragon on my own from character designing, modeling, sculpting, retopology, texturing, rigging. I also animated the flying cycle and did the post-production. The idea of the dragon is mostly from Game of Throne, How to Train Your Dragon, and other fantasy movies.", 
     time: "Blender, PS, Substance Painter, Self-learning Personal Practice 2024",
-    demo:"https://youtu.be/ZIOvnwrAJdM",
-    button: "See Video", 
+    demo:"https://www.artstation.com/artwork/rl4zYe",
+    button: "Go to ArtStation", 
   },
   {
     id: "project-13",
